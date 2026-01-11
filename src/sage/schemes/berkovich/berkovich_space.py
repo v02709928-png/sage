@@ -68,7 +68,8 @@ def is_Berkovich(space) -> bool:
         True
     """
     from sage.misc.superseded import deprecation
-    deprecation(38022, "The function is_Berkovich is deprecated; use 'isinstance(..., Berkovich)' instead.")
+    deprecation(38022, "The function is_Berkovich_Cp is deprecated; use 'isinstance(space, Berkovich_Cp)' instead.")
+
     return isinstance(space, Berkovich)
 
 
