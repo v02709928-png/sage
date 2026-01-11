@@ -994,7 +994,7 @@ def is_Infinite(x) -> bool:
         False
     """
     from sage.misc.superseded import deprecation
-    deprecation(38022, "The function is_Infinite is deprecated; use 'isinstance(..., InfinityElement)' instead.")
+    deprecation(38022, "The function is_Infinite is deprecated; use 'isinstance(x, InfinityElement)' instead.")
 
     return isinstance(x, InfinityElement)
 
